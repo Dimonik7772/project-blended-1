@@ -1,0 +1,87 @@
+body {
+  background-color: #fff;
+  color: #22343d;
+  font-family: "poppins", sans-serif;
+}
+/* #region comon*/
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* #endregion */
+/* #region header */
+.logo {
+  display: flex;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0.93;
+  color: #173a56;
+  align-items: center;
+}
+.logo-image {
+  margin-right: 16px;
+  padding: 22px 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  margin-right: 73px;
+  gap: 30px;
+}
+.menu-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #22343d;
+}
+.menu-item-actual a {
+  font-weight: 600;
+}
+.button-list {
+  display: flex;
+  gap: 21px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+}
+.button-sing-in {
+  background: #ffffff;
+  cursor: pointer;
+  width: 105px;
+  height: 42px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+.button-sing-up {
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  background: #02897a;
+  border-style: none;
+  color: #ffffff;
+}
+/* #endregion*/
