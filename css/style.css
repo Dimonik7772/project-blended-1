@@ -2,6 +2,7 @@ body {
   background-color: #fff;
   color: #22343d;
   font-family: "poppins", sans-serif;
+  line-height: 1.62;
 }
 img {
   display: block;
@@ -22,18 +23,18 @@ h6,
 p {
   margin: 0;
 }
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
-  line-height: 1.62;
-}
-p {
-  line-height: 1.62;
 }
 a {
   text-decoration: none;
   color: inherit;
+}
+button {
+  cursor: pointer;
 }
 h2 {
   font-weight: 700;
@@ -43,7 +44,7 @@ h2 {
 /* #region comon section */
 .button-bg-green {
   border-radius: 4px;
-  cursor: pointer;
+
   background: #02897a;
   border-style: none;
   color: #ffffff;
@@ -73,18 +74,18 @@ h2 {
 /* #region header */
 .logo {
   display: flex;
-  margin-right: auto;
   font-size: 30px;
   font-weight: 700;
   line-height: 0.93;
   color: #173a56;
   align-items: center;
+  margin-right: auto;
 }
 .logo-image {
   margin-right: 16px;
-  padding: 22px 0;
 }
 .nav {
+  display: block;
   display: flex;
   align-items: center;
 }
@@ -412,7 +413,9 @@ h2 {
   height: 50px;
   border-radius: 8px;
   border-style: none;
+  margin-bottom: 56px;
 }
+/*  */
 .container-footer {
   display: flex;
   align-items: flex-start;
