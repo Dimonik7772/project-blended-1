@@ -20,105 +20,332 @@
       <title>Resources</title>
    </head>
    <body>
-      <header>
-         <nav>
-            <a href="./index.html">
-               <img src="./image/logo.png" alt="logo" />
-               Product
-            </a>
-            <ul>
-               <li><a href="./index.html">Product</a></li>
-               <li><a href="./Pricing.html">Pricing</a></li>
-               <li><a href="./Customers.html">Customers</a></li>
-               <li><a href="./Resurces.html">Resources</a></li>
+      <header class="header-container">
+         <div class="container">
+            <nav class="nav">
+               <a href="./index.html" class="logo">
+                  <img src="./image/logo.png" alt="logo" width="40" />Product
+               </a>
+               <ul class="menu-list">
+                  <li class="menu-item">
+                     <a href="./index.html" class="menu-item-link">Product</a>
+                  </li>
+                  <li class="menu-item">
+                     <a href="./Pricing.html" class="menu-item-link">Pricing</a>
+                  </li>
+                  <li class="menu-item">
+                     <a href="./Customers.html" class="menu-item-link"
+                        >Customers</a
+                     >
+                  </li>
+                  <li class="menu-item menu-item-actual">
+                     <a href="./Resources.html" class="menu-item-link"
+                        >Resources</a
+                     >
+                  </li>
+               </ul>
+            </nav>
+            <ul class="button-list">
+               <li>
+                  <button class="button-sing-in" type="button">Sign in</button>
+               </li>
+               <li>
+                  <button class="button-bg-green button-sing-up" type="button">
+                     Sign Up
+                  </button>
+               </li>
             </ul>
-            <ul>
-               <li><button type="button">Sign in</button></li>
-               <li><button type="button">Sign Up</button></li>
-            </ul>
-         </nav>
+         </div>
       </header>
       <main>
-         <section>
-            <h2>Great Business made with Product.</h2>
-            <p>
-               Build better customer relationships easily messaging that
-               provides a more personal experience for you and your customers.
-            </p>
-            <img src="./image/Group 1451.png" alt="people joined" />
-            <p>Join over 4,000+ other</p>
-            <img src="./image/Group 1452.png" alt="our Group" />
+         <section class="resurces-business-section">
+            <div class="container resurces-business-container">
+               <div>
+                  <h2 class="resurces-business-title">
+                     Great Business made with Product.
+                  </h2>
+                  <p class="resurces-business-caption">
+                     Build better customer relationships easily messaging that
+                     provides a more personal experience for you and your
+                     customers.
+                  </p>
+                  <form name="" class="resurces-business-form">
+                     <label for="user-email" class="resurces-business-label">
+                     </label>
+                     <input
+                        class="resurces-business-input"
+                        type="email"
+                        id="user-email"
+                        name="user-email"
+                        placeholder="Enter your email adress"
+                     />
+
+                     <button
+                        class="button-bg-green resurces-business-form-buttom"
+                     >
+                        Join Now
+                     </button>
+                  </form>
+                  <div class="resurces-business-people-wrapper">
+                     <img src="./image/Group 1451.png" alt="people joined" />
+                     <p class="esurces-business-people">
+                        Join over
+                        <span class="resurces-business-span">4,000</span>+ other
+                     </p>
+                  </div>
+               </div>
+
+               <img src="./image/Group 1452.png" alt="our Group" />
+            </div>
          </section>
-         <h2>Latest Stories</h2>
-         <p>
-            We focus on ergonomics and meeting you where you work. It's only a
-            keystroke away.
-         </p>
-         <ul>
-            <li>
-               <img src="./image/Placeholder.png" alt="" />
-               <p>By Wahid Ari | 03 March 2019</p>
-               <h3>Increasing Prosperity With Positive Thinking</h3>
-            </li>
-            <li>
-               <img src="./image/Placeholder-1.png" alt="" />
-               <p>By Wahid Ari | 03 March 2019</p>
-               <h3>Motivation Is The First Step To Success</h3>
-            </li>
-            <li>
-               <img src="./image/Placeholder-2.png" alt="" />
-               <p>By Wahid Ari | 03 March 2019</p>
-               <h3>Success Steps For Your Personal Or Business</h3>
-            </li>
-            <li>
-               <img src="./image/Placeholder-3.png" alt="" />
-               <p>By Wahid Ari | 03 March 2019</p>
-               <h3>Increasing Prosperity With Positive Thinking</h3>
-            </li>
-            <li>
-               <img src="./image/Placeholder-4.png" alt="" />
-               <p>By Wahid Ari | 03 March 2019</p>
-               <h3>Motivation Is The First Step To Success</h3>
-            </li>
-            <li>
-               <img src="./image/Placeholder-5.png" alt="" />
-               <p>By Wahid Ari | 03 March 2019</p>
-               <h3>Success Steps For Your Personal Or Business</h3>
-            </li>
-         </ul>
-         <button type="button">More Stories</button>
-         <section>
-            <h2>Contact Us</h2>
-            <p>Need more detailed information? Get in touch with us.</p>
-            <iframe
-               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7448.283730012872!2d105.77989157770999!3d21.0270089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0bf969acc7%3A0x5c1dcc77c7244bfe!2sFPT%20Corporation!5e0!3m2!1sru!2spl!4v1759651364066!5m2!1sru!2spl"
-               width="871"
-               height="343"
-               style="border: 0"
-               allowfullscreen=""
-               loading="lazy"
-               referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+         <section class="resurces-stories-section">
+            <div class="container">
+               <h2 class="resurces-stories-title">Latest Stories</h2>
+               <p class="resurces-stories-caption">
+                  We focus on ergonomics and meeting you where you work. It's
+                  only a keystroke away.
+               </p>
+               <ul class="resurces-stories-list">
+                  <li class="resurces-stories-item">
+                     <img
+                        src="./image/Placeholder.png"
+                        alt="hands and computer"
+                     />
+                     <p class="resurces-stories-item-caption">
+                        By
+                        <span class="resurces-stories-span">Wahid Ari</span> |
+                        03 March 2019
+                     </p>
+                     <h3 class="resurces-stories-item-title">
+                        Increasing Prosperity With Positive Thinking
+                     </h3>
+                  </li>
+                  <li class="resurces-stories-item">
+                     <img src="./image/Placeholder-1.png" alt="People" />
+                     <p class="resurces-stories-item-caption">
+                        By
+                        <span class="resurces-stories-span">Wahid Ari</span> |
+                        03 March 2019
+                     </p>
+                     <h3 class="resurces-stories-item-title">
+                        Motivation Is The First Step To Success
+                     </h3>
+                  </li>
+                  <li class="resurces-stories-item">
+                     <img src="./image/Placeholder-2.png" alt="Man" />
+                     <p class="resurces-stories-item-caption">
+                        By
+                        <span class="resurces-stories-span">Wahid Ari</span> |
+                        03 March 2019
+                     </p>
+                     <h3 class="resurces-stories-item-title">
+                        Success Steps For Your Personal Or Business
+                     </h3>
+                  </li>
+                  <li class="resurces-stories-item">
+                     <img
+                        src="./image/Placeholder-3.png"
+                        alt="hands and computer"
+                     />
+                     <p class="resurces-stories-item-caption">
+                        By
+                        <span class="resurces-stories-span">Wahid Ari</span> |
+                        03 March 2019
+                     </p>
+                     <h3 class="resurces-stories-item-title">
+                        Increasing Prosperity With Positive Thinking
+                     </h3>
+                  </li>
+                  <li class="resurces-stories-item">
+                     <img
+                        src="./image/Placeholder-4.png"
+                        alt="hands and computer"
+                     />
+                     <p class="resurces-stories-item-caption">
+                        By
+                        <span class="resurces-stories-span">Wahid Ari</span> |
+                        03 March 2019
+                     </p>
+                     <h3 class="resurces-stories-item-title">
+                        Motivation Is The First Step To Success
+                     </h3>
+                  </li>
+                  <li class="resurces-stories-item">
+                     <img
+                        src="./image/Placeholder-5.png"
+                        alt="hands and computer"
+                     />
+                     <p class="resurces-stories-item-caption">
+                        By
+                        <span class="resurces-stories-span">Wahid Ari</span> |
+                        03 March 2019
+                     </p>
+                     <h3 class="resurces-stories-item-title">
+                        Success Steps For Your Personal Or Business
+                     </h3>
+                  </li>
+               </ul>
+               <button type="button" class="resurces-stories-button">
+                  More Stories
+                  <svg width="20" height="20">
+                     <use href="./image/icons.svg#circle"></use>
+                  </svg>
+               </button>
+            </div>
+         </section>
+         <section class="resurces-contact-section">
+            <div class="container">
+               <h2 class="resurces-contact-title">Contact Us</h2>
+               <p class="resurces-contact-caption">
+                  Need more detailed information? Get in touch with us.
+               </p>
+               <ul class="footer-social-list resurces-contact-social">
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-instagram" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-facebook" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-twit" />
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+               <iframe
+                  class="resurces-contact-map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7448.283730012872!2d105.77989157770999!3d21.0270089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab0bf969acc7%3A0x5c1dcc77c7244bfe!2sFPT%20Corporation!5e0!3m2!1sru!2spl!4v1759651364066!5m2!1sru!2spl"
+                  width="871"
+                  height="343"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+               ></iframe>
+               <div class="resurces-contact-wrapper">
+                  <h3 class="resurces-contact-title">Send a message</h3>
+                  <form class="resurces-contact-form">
+                     <label for="user-name">
+                        <input
+                           class="resurces-contact-input"
+                           type="text"
+                           name="user-name"
+                           id="user-name"
+                           placeholder="Your Name"
+                     /></label>
+                     <label for="user-email">
+                        <input
+                           class="resurces-contact-input"
+                           type="email"
+                           name=" user-email"
+                           id=" user-email"
+                           placeholder="Your Email"
+                     /></label>
+                     <label for="user-massage">
+                        <textarea
+                           class="resurces-contact-massage"
+                           name="user-massage"
+                           id="user-massage"
+                           placeholder="Your Message"
+                        ></textarea>
+                     </label>
+                     <button class="resurces-contact-button">Send</button>
+                  </form>
+               </div>
+            </div>
          </section>
       </main>
-      <footer>
-         <a href="./index.html"
-            ><img src="./image/logo.png" alt="Logo" />Product</a
-         >
-         <h3>Resource</h3>
-         <ul>
-            <li><p>About Us</p></li>
-            <li><p>Blog</p></li>
-            <li><p>Contact</p></li>
-            <li><p>FAQ</p></li>
-         </ul>
-         <h3>Legal Stuff</h3>
-         <ul>
-            <li><p>Disclaimer</p></li>
-            <li><p>Financing</p></li>
-            <li><p>Privacy Policy</p></li>
-         </ul>
-         <p>Made With Love By Figmaland All Right Reserved</p>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-container">
+               <a href="./index.html" class="logo"
+                  ><img src="./image/logo.png" alt="logo" />Product</a
+               >
+               <ul class="footer-social-list">
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-instagram" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-facebook" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-twit" />
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-container">
+               <p class="footer-resourses">Resource</p>
+               <ul class="footer-resourses-list">
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link">About Us</a>
+                  </li>
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link"> Blog </a>
+                  </li>
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link">Contact</a>
+                  </li>
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link">FAQ</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-container">
+               <p class="footer-stuff">Legal Stuff</p>
+               <ul class="footer-stuff-list">
+                  <li class="footer-stuff-item">
+                     <a href="" class="footer-stuff-link">Disclaimer</a>
+                  </li>
+                  <li class="footer-stuff-item">
+                     <a href="" class="footer-stuff-link">Financing</a>
+                  </li>
+                  <li class="footer-stuff-item">
+                     <a href="" class="footer-stuff-link">Privacy Policy</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-container">
+               <p class="footer-form-title">
+                  knowing you're always on the best energy deal.
+               </p>
+               <form class="footer-form">
+                  <label for="user-tel"></label>
+                  <input
+                     type="tel"
+                     id="user-tel"
+                     name="tel"
+                     placeholder="Enter your phone number"
+                     class="footer-form-input"
+                  />
+                  <button type="submit" class="footer-btn">Sign up Now</button>
+               </form>
+            </div>
+         </div>
+         <p class="footer-text-end">
+            Made With Love By Figmaland All Right Reserved
+         </p>
       </footer>
    </body>
 </html>
