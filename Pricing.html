@@ -27,10 +27,10 @@
                   <img src="./image/logo.png" alt="logo" width="40" />Product
                </a>
                <ul class="menu-list">
-                  <li class="menu-item menu-item-actual">
+                  <li class="menu-item ">
                      <a href="./index.html" class="menu-item-link">Product</a>
                   </li>
-                  <li class="menu-item">
+                  <li class="menu-item menu-item-actual">
                      <a href="./Pricing.html" class="menu-item-link">Pricing</a>
                   </li>
                   <li class="menu-item">
@@ -39,7 +39,7 @@
                      >
                   </li>
                   <li class="menu-item">
-                     <a href="./Resources.html" class="menu-item-link"
+                     <a href="./Resurces.html" class="menu-item-link"
                         >Resources</a
                      >
                   </li>
@@ -58,7 +58,7 @@
          </div>
       </header>
       <main>
-         <section class="price-section">
+         <section class="price-section praicing-price-section">
             <div class="container">
                <h2 class="price-title">Price Table</h2>
                <p class="price-botom-title-text">We offer competitive price</p>
@@ -153,17 +153,19 @@
             </div>
          </section>
          <section class="enterprice-section">
-            <p class="enterprice-caption">enterprise</p>
-            <h2 class="enterprice-title">
-               Are you interested in a custom-tailored plan?
-            </h2>
-            <p class="enterprice-text">
-               Product is a set of advanced features for really large teams with
-               projects.
-            </p>
-            <button class="enterprice-button button-bg-green" type="button">
-               Get in touch with us
-            </button>
+            <div class="container enterprice-container">
+               <p class="enterprice-caption">enterprise</p>
+               <h2 class="enterprice-title">
+                  Are you interested in a custom-tailored plan?
+               </h2>
+               <p class="enterprice-text">
+                  Product is a set of advanced features for really large teams with
+                  projects.
+               </p>
+               <button class="enterprice-button button-bg-green" type="button">
+                  Get in touch with us
+               </button>
+            </div>
          </section>
          <section class="pricing-product-section">
             <div class="container">
@@ -199,37 +201,98 @@
                   </ul>
                </div>
             </div>
-         </section>
-         <section class="pricing-question-section">
-            <div class="container">
-               <h2 class="pricing-question-title">Frequently asked question</h2>
-               <p class="pricing-question-text">
-                  Something is not clear? You need help? Check our FAQ section
+</section>
+         <section class="question">
+          <div class="container">
+            <h2 class="question-title">Frequently asked question</h2>
+               <p class="question-descr">
+            Something is not clear? You need help? Check our FAQ section
                </p>
-               <ul class="pricing-question-list">
-                  <li class="pricing-question-item">
-                     <h3 class="pricing-question-item-title">What are my payment option?</h3>
-                  </li>
-                  <li class="pricing-question-item">
-                     <h3 class="pricing-question-item-title">How can I invite collaborator to platform?</h3>
-                     <p class="pricing-question-item-text">
-                        After creating your account you will have an oppurtunity
-                        to create your first project that will be associated
-                        withthe collaborators e-mail. An invitation will be sent
-                        automatically. Then, invited user will have to confirm
-                        his account by e-mail and finish userd onboarding.
-                     </p>
-                  </li class="pricing-question-item">
-                  <li>
-                     <h3 class="pricing-question-item-title">Can I upgrade my plan?</h3>
-                  </li>
-                  <li class="pricing-question-item">
-                     <h3 class="pricing-question-item-title last-pricing-question-item-title">Can I cancel my plan at anytime?</h3>
-                  </li>
-               </ul>
-            </div>
-         </section>
-          <section>
+            <ul class="question-list">
+               <li class="question-list-item">
+               <details class="question-details">
+                  <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./image/icons.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./image/icons.svg#icon-minus"></use>
+                  </svg>
+                  What are my payment option?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li class="question-list-item">
+              <details>
+                <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./image/icons.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./image/icons.svg#icon-minus"></use>
+                  </svg>
+                  How can I invite collaborator to platform?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li class="question-list-item">
+              <details>
+                <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./image/icons.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./image/icons.svg#icon-minus"></use>
+                  </svg>
+                  Can I upgrade my plan?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+            <li class="question-list-item">
+              <details>
+                <summary class="questions-sum">
+                  <svg class="icon plus">
+                    <use href="./image/icons.svg#icon-plus"></use>
+                  </svg>
+                  <svg class="icon minus">
+                    <use href="./image/icons.svg#icon-minus"></use>
+                  </svg>
+                  Can I cancel my plan at anytime?
+                </summary>
+                <p class="questions-ans">
+                  After creating your account you will have an oppurtunity to
+                  create your first project that will be associated withthe
+                  collaborators e-mail. An invitation will be sent
+                  automatically. Then, invited user will have to confirm his
+                  account by e-mail and finish userd onboarding.
+                </p>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </section>
+          <section class="join-section praicing-join-section">
          <div class="container join-container">
             <div class="join-container-title">
                <h2 class="join-title">
@@ -237,33 +300,90 @@
                </h2>
                <button class="join-button" type="button">Get This</button>
             </div>
-            <img src="./image/graphics.png" alt="Graphics" width="351" />
+            <img src="./image/graphics.png" alt="Graphics"  />
          </div>
       </section>
-      <footer>
+      <footer class="footer">
          <div class="container">
-            <div class="container-footer">
-               <a href="./index.html" class="footer-logo">
-                  <img src="./image/logo.png" alt="Logo" width="40" />Product</a
+            <div class="footer-container">
+               <a href="./index.html" class="logo"
+                  ><img src="./image/logo.png" alt="logo" />Product</a
                >
-               <ul class="Resource-list">
-                  <li><h3 class="footer-title">Resource</h3></li>
-                  <li><p class="item-text">About Us</p></li>
-                  <li><p class="item-text">Blog</p></li>
-                  <li><p class="item-text">Contact</p></li>
-                  <li><p class="item-text">FAQ</p></li>
-               </ul>
-               <ul class="stuff-list">
-                  <li><h3 class="footer-title">Legal Stuff</h3></li>
-                  <li><p class="item-text">Disclaimer</p></li>
-                  <li><p class="item-text">Financing</p></li>
-                  <li><p class="item-text">Privacy Policy</p></li>
+               <ul class="footer-social-list">
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-instagram" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-facebook" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a href="" class="footer-social-link"
+                        ><svg width="24" height="24" class="footer-social-icon">
+                           <use href="./image/icons.svg#icon-twit" />
+                        </svg>
+                     </a>
+                  </li>
                </ul>
             </div>
-            <p class="footer-text">
-               Made With Love By Figmaland All Right Reserved
-            </p>
+            <div class="footer-container">
+               <p class="footer-resourses">Resource</p>
+               <ul class="footer-resourses-list">
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link">About Us</a>
+                  </li>
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link"> Blog </a>
+                  </li>
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link">Contact</a>
+                  </li>
+                  <li class="footer-resourses-item">
+                     <a href="" class="footer-resourses-link">FAQ</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-container">
+               <p class="footer-stuff">Legal Stuff</p>
+               <ul class="footer-stuff-list">
+                  <li class="footer-stuff-item">
+                     <a href="" class="footer-stuff-link">Disclaimer</a>
+                  </li>
+                  <li class="footer-stuff-item">
+                     <a href="" class="footer-stuff-link">Financing</a>
+                  </li>
+                  <li class="footer-stuff-item">
+                     <a href="" class="footer-stuff-link">Privacy Policy</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-container">
+               <p class="footer-form-title">
+                  knowing you're always on the best energy deal.
+               </p>
+               <form class="footer-form">
+                  <label for="user-tel"></label>
+                  <input
+                     type="tel"
+                     id="user-tel"
+                     name="tel"
+                     placeholder="Enter your phone number"
+                     class="footer-form-input"
+                  />
+                  <button type="submit" class="footer-btn">Sign up Now</button>
+               </form>
+            </div>
          </div>
+         <p class="footer-text-end">
+            Made With Love By Figmaland All Right Reserved
+         </p>
       </footer>
    </body>
 </html>
